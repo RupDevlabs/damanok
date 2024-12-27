@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+
+  .category-buttons {
+    margin-top: 20px;
+  }
+
+  .category-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+  }
+
+  .category-button:hover {
+    background-color: #45a049;
+  }
+
+  .game-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+  }
+
+  .answer-button {
+    margin: 10px;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .answer-button:hover {
+    background-color: #0056b3;
+  }
+
+  .answer-button.correct {
+    background-color: #4caf50 !important;
+  }
+
+  .answer-button.wrong {
+    background-color: #f44336 !important;
+  }
+
+  #timer {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+
+  #score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2ecc71;
+  }
+
+  #result {
+    padding-top: 20px;
+  }
+
+  #result-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+
+  .game-over-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .game-over-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .game-over-container button:hover {
+    background-color: #45a049;
+  }
+
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .back-button:hover {
+    background-color: #e67e22;
+  }
